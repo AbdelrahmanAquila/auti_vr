@@ -18,9 +18,8 @@ class _PanoramaScreenState extends State<PanoramaScreen> {
   double _tilt = 0;
   int _panoId = 0;
   List<Image> panoImages = [
-    Image.asset('assets/panorama.jpg'),
-    Image.asset('assets/panorama2.webp'),
-    Image.asset('assets/panorama_cropped.webp'),
+    Image.network(
+        'https://firebasestorage.googleapis.com/v0/b/auti-vr.appspot.com/o/secnd%20try.jpg?alt=media&token=0e0a708d-6fca-4f63-8d30-245926ed7afa'),
   ];
   ImagePicker picker = ImagePicker();
 
