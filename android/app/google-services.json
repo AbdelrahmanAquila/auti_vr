@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "25433461928",
+    "project_id": "auti-vr",
+    "storage_bucket": "auti-vr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25433461928:android:12a792603a678c32f45e9d",
+        "android_client_info": {
+          "package_name": "com.example.auti_vr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm8oLqaTgmKutnRjQlIsvAXryCXjFfs3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
