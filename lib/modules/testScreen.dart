@@ -1,4 +1,4 @@
-import 'package:auti_vr/modules/vr2.dart';
+import 'package:auti_vr/modules/last_try.dart';
 import 'package:auti_vr/shared/components.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +11,7 @@ class TestScreen extends StatelessWidget {
         child: TextButton(
           child: const Text('show vid'),
           onPressed: () {
-            navigateTo(context, const VideoScreen());
+            navigateTo(context, const Vid360());
           },
         ),
       ),
